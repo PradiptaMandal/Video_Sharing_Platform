@@ -3,7 +3,7 @@ const bcrypt=require("bcryptjs");
 const jwtAuth=require("./jwtAuth.js")
 require("../db/conn.js");
 const User=require("../models/UserSchema.js");
-const router=express.Router();
+//const router=express.Router();
 
 
 router.post("/signin",async(req,res)=>{
