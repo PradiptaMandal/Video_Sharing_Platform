@@ -15,7 +15,7 @@ app.use(express.json())
 
 
 app.use(require("./router/Upload.js"))
-app.use(require("./router/Search.js"))
+
 app.use(require("./router/Register.js"))
 app.use(require("./router/Signin.js"));
 
